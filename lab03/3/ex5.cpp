@@ -1,4 +1,4 @@
-// Пример 5: передача double в функцию с параметром int
+//Пример5: передача double в функцию с пааметром int
 #include <iostream>
 void f(int a) { std::cout << a << std::endl; }
 int main() {
