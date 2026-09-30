@@ -1,4 +1,3 @@
-// Пример 4: длинное целое в короткое
 #include <iostream>
 int main() {
     long long big = 5000000000LL;
