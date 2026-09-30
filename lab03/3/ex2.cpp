@@ -1,4 +1,3 @@
-// Пример 2: целое число в условии
 #include <iostream>
 int main() {
     int n = 3;
