@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main() {
+    int a[20];
+    for (int i = 0; i < 20; i++)
+        a[i] = i;
+
+    int *b = a + 8; // b указывает на a[8]
+
+    std::cout << "Вывод всех элементов массива a[0..19] через смещенный указатель b:\n";
+    for (int i = -8; i < 12; i++)
+        std::cout << b[i] << ' ';
+    std::cout << std::endl;
+
+    return 0;
+}
